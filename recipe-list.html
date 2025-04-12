@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>recipe-list</title>
+</head>
+
+<body>
+    <header>
+        <nav><a href="index.html">Home</a><br><br>
+            <a href="add-recipe.html">Add Recipe</a><br><br>
+            <a href="recipe-list.html">Recipe list</a>
+        </nav>
+    </header>
+    <hr>
+    <h1>Recipe Gallary</h1>
+    <!--filter by gallary-->
+    <section>
+        <form>
+            <label for="search">Search</label>
+            <input type="text" id="search" name="search">
+            <input type="submit" value="search"> <br><br>
+        </form>
+
+        <lable for="category-filter">Filter Category</lable>
+        <select id="category-filter">
+            <option value="all">All</option>
+            <option value="main">Main Dish</option>
+            <option value="dessert">Desserts</option>
+            <option value="vegan">Vegan</option>
+        </select>
+        <hr>
+        <!--recipes-->
+        <main>
+            <h1>All Recipes</h1>
+            <ul>
+                <li>
+
+                    <h2><a href="recipe-details.html">Qabili palau</a></h2>
+                    <img src="kabuly palu.webp" alt="kabuly palu" height="400" width="350">
+                    <p>A triditional Afghan rice dish made with lamb, carrots, and raisins.</p>
+                    <p>Average Rating: 4.5/5</p>
+                </li>
+                <li>
+
+                    <h2><a href="recipe-details.html">Shir Yakh (Afghan Ice cream) </a></h2>
+                    <img src="shir.jpg" alt="Shir Yakh Af" height="400" width="350">
+                    <p>A triditional Afghan frozen dessert made with milk, sugar and cardemom.</p>
+                    <p>Average Rating: 4.8/5</p>
+                </li>
+                <h2><a href="recipe-details.html">Noodle </a></h2>
+                <img src="nod.webp" alt="Noodles" height="400" width="350">
+                <p>A quick and tasty dish made with boiled noodles, vegetales and spices .<br> Perfect for busy days!
+                </p>
+                <p>Average Rating: 4.5/5</p>
+                </li>
+            </ul>
+    </section>
+    <footer>
+        <p>4/12/2025 My Recipe Page</p>
+    </footer>
+    </main>
+
+</body>
+
+</html>

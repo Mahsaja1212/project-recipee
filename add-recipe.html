@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add-Recipe</title>
+</head>
+
+<body>
+  <header>
+    <!--Navigation Bar-->
+    <nav>
+      <a href="index.html">Hmoe</a><br>
+      <a href="add-recipe.html">Add Recipe</a><br>
+      <a href="recipe-list.html">Recipe List</a>
+
+    </nav>
+  </header>
+  <hr>
+  <main>
+    <h2>Submite a Recipe</h2>
+    <hr>
+    <section>
+      <Form action="#" method="post">
+        <!-- recipe name -->
+        <label for="recipe-name"> Recipe Nmae: </label><br>
+        <input type="text" id="recipe-name" name="recipename" required><br><br>
+        <!--description-->
+        <lable for="description">
+          short Description:
+        </lable><br>
+        <textarea id="description" rows="3" cols="40" required></textarea><br>
+        <!--ingredients-->
+        <lable for="ingredients">Ingredients:</lable><br>
+        <textarea id="ingredients" rows="5" cols="40" required></textarea><br><br>
+        <!--cooking instructions-->
+        <label for="instructions">cooking Instructions</label><br>
+        <textarea id="instructions" name="instructions" rows="6" cols="40" required></textarea><br><br>
+        <!--image URL-->
+        <lable for="imageURL">Image URL:</lable>
+        <input type="file" id="imageURL" name="imageURL"><br><br>
+        <!--recipe category-->
+        <lable for="category"> Recipe Category</lable><br>
+        <select id="category" name="category" required>
+          <option value="">--Select a Category--</option>
+          <option value="desserts">Desserts</option>
+          <option value="appetizers">Appetizers</option>
+          <option value="main">Main Dishes</option>
+          <option value="beverages">Beverages</option>
+          <option value="salads">Salads</option>
+        </select><br><br>
+        <!--sabmit button-->
+        <button type="submit">Add Recipe</button>
+      </Form>
+    </section>
+    <!--footer section-->
+    <footer>
+      <p>4/12/2025 My Recipe Page</p>
+    </footer>
+  </main>
+</body>
+
+</html>
